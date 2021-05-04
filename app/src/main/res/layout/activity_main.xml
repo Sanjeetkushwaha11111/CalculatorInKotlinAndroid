@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+     <TextView
+         android:id="@+id/txt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Sum Of Two Number:-"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="50dp"
+         android:textSize="30dp"
+         android:textColor="@color/colorPrimary"
+         android:textAppearance="@style/ThemeOverlay.AppCompat.DayNight"
+         android:textStyle="bold"
+         android:fontFamily="sans-serif-condensed-medium"
+         />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:inputType="number"
+        android:hint="Enter number 1"
+        android:layout_centerInParent="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#111"
+        />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:layout_below="@id/num1"
+        android:hint="Enter number 2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#111"
+        />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/txt"
+        android:hint="Output Here"
+        android:textSize="25dp"
+        android:textColor="#111"
+        android:textAppearance="@style/ThemeOverlay.AppCompat.DayNight"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num2"
+        android:layout_centerHorizontal="true"
+        android:text="Sum"
+        android:background="#A7F614"
+        android:fadingEdge="horizontal"
+        android:hapticFeedbackEnabled="true"
+        android:textColor="#C009DF"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+
+
+
+
+
+</RelativeLayout>
