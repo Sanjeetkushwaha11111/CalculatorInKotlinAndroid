@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:inputType="number"
         android:layout_below="@id/num1"
         android:hint="Enter number 2"
@@ -69,8 +69,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/num2"
-        android:layout_centerHorizontal="true"
         android:text="Sum"
+        android:layout_marginLeft="15dp"
         android:background="#A7F614"
         android:fadingEdge="horizontal"
         android:hapticFeedbackEnabled="true"
@@ -78,6 +78,56 @@
         android:textStyle="bold"
         android:layout_marginTop="17dp"
         android:fontFamily="sans-serif-condensed-medium"/>
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num2"
+        android:text="Sub"
+        android:layout_marginLeft="120dp"
+        android:background="#A7F614"
+        android:fadingEdge="horizontal"
+        android:hapticFeedbackEnabled="true"
+        android:textColor="#C009DF"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num2"
+        android:text="Mult"
+        android:layout_marginLeft="220dp"
+        android:background="#A7F614"
+        android:fadingEdge="horizontal"
+        android:hapticFeedbackEnabled="true"
+        android:textColor="#C009DF"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num2"
+        android:text="Divide"
+        android:layout_toRightOf="@id/multiply"
+        android:layout_marginLeft="10dp"
+        android:background="#A7F614"
+        android:fadingEdge="horizontal"
+        android:hapticFeedbackEnabled="true"
+        android:textColor="#C009DF"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+
+
+
 
 
 
