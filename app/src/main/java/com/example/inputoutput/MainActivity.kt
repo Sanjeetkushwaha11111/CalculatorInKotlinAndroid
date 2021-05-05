@@ -1,11 +1,7 @@
 package com.example.inputoutput
 
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        var num1 = findViewById<EditText>(R.id.num1)
+       /* var num1 = findViewById<EditText>(R.id.num1)
         var num2 = findViewById<EditText>(R.id.num2)
 
         var sum = findViewById<Button>(R.id.sum)
@@ -61,6 +57,7 @@ class MainActivity : AppCompatActivity() {
 
             output.setText(c.toString())
         }
+    }*/
     }
 }
 
